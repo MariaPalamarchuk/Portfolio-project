@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #6d0b0b;
+  --secondary-color: #e6bebe;
+  --heading-font: "Courgette", cursive;
+  --main-font: "Handlee", cursive;
+}
+
+.logo {
+  max-width: 70px;
+  max-height: 70px;
+  border-radius: 10px;
+}
+.hero {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 70px auto;
+  margin-bottom: 80px;
+  padding: 30px auto;
+  padding-bottom: 50px;
+}
+h1 {
+  font-family: var(--heading-font);
+}
+h2 {
+  font-family: var(--heading-font);
+}
+h3 {
+  font-family: var(--main-font);
+  padding: 0px 0px 50px;
+}
+.hero h1 {
+  font-size: 70px;
+}
+.hero h2 {
+  font-size: 36px;
+}
+.hero h3 {
+  font-size: 24px;
+}
+.btn-branding {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 20px;
+  margin: 10px auto;
+  text-decoration: none;
+  border-radius: 5px;
+}
