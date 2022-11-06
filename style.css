@@ -30,12 +30,15 @@ h3 {
 }
 .hero h1 {
   font-size: 70px;
+  text-align: center;
 }
 .hero h2 {
   font-size: 36px;
+  text-align: center;
 }
 .hero h3 {
   font-size: 24px;
+  text-align: center;
 }
 .btn-branding {
   background-color: var(--secondary-color);
@@ -46,4 +49,71 @@ h3 {
   margin: 10px auto;
   text-decoration: none;
   border-radius: 5px;
+  font-family: var(--main-font);
+}
+.btn-branding:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+#my-project {
+  font-size: 30px;
+  font-weight: bolder;
+  color: var(--primary-color);
+  font-family: var(--main-font);
+}
+.heading {
+  font-size: 36px;
+  color: var(--primary-color);
+  font-family: var(--heading-font);
+}
+.text {
+  font-family: var(--main-font);
+  font-size: 20px;
+}
+#images {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 5px;
+  border: 3px solid var(--secondary-color);
+  background-color: var(--primary-color);
+}
+#button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 20px;
+  margin: 10px auto;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: var(--main-font);
+}
+#button:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+@media (max-width: 768px) {
+  #images {
+    max-width: 300px;
+    margin: auto;
+  }
+  .hero h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+  }
+  .hero h2 {
+    font-size: 26px;
+  }
+  .hero h3 {
+    font-size: 20px;
+  }
+  .heading {
+    margin: auto;
+  }
 }
