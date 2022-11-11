@@ -129,12 +129,25 @@ h3 {
 }
 .about-hero h1 {
   font-size: 44px;
+  color: var(--primary-color);
 }
 .about-hero h2 {
   font-size: 26px;
+  color: var(--primary-color);
 }
 .about-hero h3 {
   font-size: 20px;
   margin-top: 45px;
   line-height: 1.5;
+}
+.work-hero {
+  margin-top: 100px;
+}
+.work-hero h1 {
+  font-size: 40px;
+  background-color: #e6bebe83;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  color: var(--primary-color);
 }
