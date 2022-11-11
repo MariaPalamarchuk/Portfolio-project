@@ -116,4 +116,24 @@ h3 {
   .heading {
     margin: auto;
   }
+  
+  }
+  .about-hero h3 {
+    margin-top: 10px;
+  }
+}
+.about-hero {
+  margin-top: 100px;
+  padding: 60px 20px;
+}
+.about-hero h1 {
+  font-size: 44px;
+}
+.about-hero h2 {
+  font-size: 26px;
+}
+.about-hero h3 {
+  font-size: 20px;
+  margin-top: 45px;
+  line-height: 1.5;
 }
