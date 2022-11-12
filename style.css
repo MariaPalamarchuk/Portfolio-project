@@ -176,3 +176,19 @@ h3 {
   color: var(--primary-color);
   margin: 0px 120px 0px 120px;
 }
+.footer-email {
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: var(--main-font);
+}
+.footer-email:hover {
+  color: var(--secondary-color);
+}
+.social-links {
+  font-size: 40px;
+  color: var(--primary-color);
+}
+.social-links:hover {
+  color: var(--secondary-color);
+}
