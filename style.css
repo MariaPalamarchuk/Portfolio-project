@@ -198,7 +198,17 @@ footer .contact-box {
   border: 1px solid var(--primary-color);
   background-color: var(--secondary-color);
 }
-
+#bottom {
+  font-size: 15px;
+  font-family: var(--main-font);
+}
+.open-sourced {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.open-sourced:hover {
+  color: var(--secondary-color);
+}
 @media (max-width: 768px) {
   #images {
     max-width: auto;
